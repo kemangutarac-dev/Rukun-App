@@ -1,0 +1,24 @@
+{
+  "name": "rukun-backend",
+  "version": "1.0.0",
+  "description": "Backend for Rukun App",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "pg": "^8.11.0",
+    "socket.io": "^4.7.0",
+    "redis": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.10.0",
+    "typescript": "^5.0.0"
+  }
+}
